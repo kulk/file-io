@@ -20,20 +20,21 @@ public class Operator {
 
 
     public void run(){
-        ClientInterface client = new ClientInterface();
+        /*ClientInterface client = new ClientInterface();
         ArrayList<String> languageCompany = client.getUserInput();
-        copyLanguageFile(languageCompany);
+        copyLanguageFile(languageCompany);*/
         createnewFile();
     }
     private void createnewFile(){
+        System.out.println("Working");
         //file name only
-        File file = new File(path + "\\" + "file.word");
+        /*File file = new File(path + "\\" + "file.word");
         try{
             if(file.createNewFile()){
                 System.out.println("file.txt File Created in Project root directory");
             }
             else System.out.println("File file.txt already exists in the project root directory");
-        }
+        }*/
 
     }
 

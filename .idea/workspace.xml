@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdc87c11-e429-43ac-b4f1-26afd31b7542" name="Default Changelist" comment="" />
+    <list default="true" id="cdc87c11-e429-43ac-b4f1-26afd31b7542" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Operator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZkwsFaqZTrtDwBbfMVJDKhX835" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,13 +31,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Make IT Work/MIW - basisfase - OOP/Dagdeel 7/OOP Bedrijf Dagdeel 7" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="FileIOHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -82,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585396604737</updated>
-      <workItem from="1585396613586" duration="8773000" />
+      <workItem from="1585396613586" duration="10592000" />
     </task>
     <servers />
   </component>
@@ -102,25 +112,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="419" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585397255586" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1585405072111">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1585407278275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585405072111" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1585405072111">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585407278275" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1585407278275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585405072111" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1585405072111">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585407278275" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1585407278275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585405072111" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1585405072111">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585407278275" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1585407278275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585405072111" />
-    <state x="9" y="98" key="SettingsEditor" timestamp="1585405593946">
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585407278275" />
+    <state x="9" y="98" key="SettingsEditor" timestamp="1585407270161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="9" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585405593946" />
+    <state x="9" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585407270161" />
+    <state x="342" y="140" key="new project wizard" timestamp="1585406418617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585406418617" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1585405727392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585405727392" />
   </component>
 </project>
