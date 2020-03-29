@@ -1,6 +1,8 @@
 package controller;
 
 import client.ClientInterface;
+import model.FinalVariables;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -12,22 +14,21 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
-import org.apache.poi.xwpf.usermodel.XWPFDocument;
-
 public class Operator {
-    final static String engCv = "C:\\Users\\Roeland\\Dropbox\\Job\\Job 2020\\CV ENG\\CV R.Kulk ENG 2020.pdf";
-    final static String nlCv = "C:\\Users\\Roeland\\Dropbox\\Job\\Job 2020\\CV NL\\CV R. Kulk NL 2020.pdf";
-    final static String engCvName = "CV R.Kulk ENG 2020.pdf";
-    final static String nlCvName = "CV R.Kulk NL 2020.pdf";
-    final static String path = "C:\\Users\\Roeland\\Dropbox\\Job\\Job 2020\\Sollicitatie activiteiten";
-    final static String testPath = "C:\\Users\\Roeland\\Dropbox\\Job\\Job 2020\\Sollicitatie activiteiten\\test";
+    FinalVariables finalVariables = new FinalVariables();
+    private String engCv = finalVariables.getEngCv();
+    private String nlCv = finalVariables.getNlCv();
+    private String engCvName = finalVariables.getEngCvName();
+    private String nlCvName = finalVariables.getNlCvName();
+    private String nlLetter = finalVariables.getNlLetter();
+    private String engLetter = finalVariables.getEngLetter();
+    private String path = finalVariables.getPath();
     private String destinationFolder;
-
 
     public void run() {
         ClientInterface client = new ClientInterface();
         ArrayList<String> languageCompany = client.getUserInput();
-        copyLanguageFile(languageCompany);
+        copyLanguageFiles(languageCompany);
         try {
             createnewFile(languageCompany.get(1));
         } catch (java.lang.Exception error) {
@@ -47,26 +48,28 @@ public class Operator {
         System.out.println("createdocument.docx written successully");
     }
 
-    private void copyLanguageFile(ArrayList<String> languageCompany) {
-        this.destinationFolder = createFolder(languageCompany.get(1));
-        if (languageCompany.get(0).equalsIgnoreCase("eng")) {
+    private void copyLanguageFiles(ArrayList<String> languageCompanyJob) {
+        this.destinationFolder = createFolder(languageCompanyJob);
+        String letterName = languageCompanyJob.get(1) + "-" + languageCompanyJob.get(2) + "-brief.docx";
+        if (languageCompanyJob.get(0).equalsIgnoreCase("2")) {
             copyFile(engCv, destinationFolder + "\\" + engCvName);
-        } else if (languageCompany.get(0).equalsIgnoreCase("nl")) {
+            copyFile(engLetter, destinationFolder + "\\" + letterName);
+        } else if (languageCompanyJob.get(0).equalsIgnoreCase("1")) {
             copyFile(nlCv, destinationFolder + "\\" + nlCvName);
+            copyFile(nlLetter, destinationFolder + "\\" + letterName);
         }
-
     }
 
-    private String createFolder(String companyName) {
-        String destionationFolder = path + "\\" + companyName + " " + getCurrentDate();
-        File newDir = new File(destionationFolder);
-        System.out.println(path + "\\" + companyName + " " + getCurrentDate());
+    private String createFolder(ArrayList<String> languageCompanyJob) {
+        String destinationFolder = path + "\\" + languageCompanyJob.get(1) + "-"
+                + languageCompanyJob.get(2) + "-"+ getCurrentDate();
+        File newDir = new File(destinationFolder);
         if (newDir.mkdir()) {
             System.out.println("Directory created");
         } else {
-            System.out.println("Directory not created");
+            System.out.println("Error: directory not created");
         }
-        return destionationFolder;
+        return destinationFolder;
     }
 
     private String getCurrentDate() {

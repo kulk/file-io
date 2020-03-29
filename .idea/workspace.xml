@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc87c11-e429-43ac-b4f1-26afd31b7542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__logkit_logkit_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_stax_api_1_0_spec_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_7_beta3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_7_beta3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_7_beta3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FinalVariables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileIO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/ClientInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ClientInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/FolderLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/FolderLocation.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585396604737</updated>
-      <workItem from="1585396613586" duration="12500000" />
+      <workItem from="1585396613586" duration="18547000" />
     </task>
     <servers />
   </component>
@@ -117,6 +107,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="396" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1585414593131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="396" y="279" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585414593131" />
     <state x="113" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585405571037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -129,26 +123,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="419" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585397255586" />
-    <state width="1169" height="278" key="GridCell.Tab.0.bottom" timestamp="1585408862456">
+    <state width="1169" height="278" key="GridCell.Tab.0.bottom" timestamp="1585508178832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585408862456" />
-    <state width="1169" height="278" key="GridCell.Tab.0.center" timestamp="1585408862456">
+    <state width="1169" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585508178832" />
+    <state width="1169" height="278" key="GridCell.Tab.0.center" timestamp="1585508178832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585408862456" />
-    <state width="1169" height="278" key="GridCell.Tab.0.left" timestamp="1585408862456">
+    <state width="1169" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585508178832" />
+    <state width="1169" height="278" key="GridCell.Tab.0.left" timestamp="1585508178832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585408862456" />
-    <state width="1169" height="278" key="GridCell.Tab.0.right" timestamp="1585408862456">
+    <state width="1169" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585508178832" />
+    <state width="1169" height="278" key="GridCell.Tab.0.right" timestamp="1585508178832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1169" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585408862456" />
+    <state width="1169" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585508178832" />
     <state x="10" y="178" key="Maven.ArtifactSearchDialog" timestamp="1585407354457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="10" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585407354457" />
+    <state x="324" y="219" width="567" height="604" key="RefactorJ.ExtractClass" timestamp="1585417579841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="324" y="219" width="567" height="604" key="RefactorJ.ExtractClass/0.0.1920.1040@0.0.1920.1040" timestamp="1585417579841" />
     <state x="9" y="98" key="SettingsEditor" timestamp="1585407874275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
